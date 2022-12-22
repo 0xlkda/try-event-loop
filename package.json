@@ -1,0 +1,22 @@
+{
+  "name": "try-io-blocking",
+  "version": "1.0.0",
+  "description": "try not to do io blocking",
+  "main": "index.js",
+  "scripts": {
+    "run:sync": "node index.js sync",
+    "run:async": "node index.js async"
+  },
+  "keywords": [],
+  "author": "",
+  "prettier": {
+    "semi": false
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "workerpool": "^6.3.1"
+  }
+}
